@@ -969,7 +969,7 @@
     }
 
     .footer {
-        height: 87vh;
+        height: 100vh;
     }
 
     .footer_title {
@@ -999,7 +999,7 @@
     }
 
     .footer_bottom {
-        margin-top: 70px;
+        margin-top: 180px;
     }
     
     /*Gallery page*/
@@ -1089,6 +1089,7 @@
     }
 
     .center_word1_1 {
+        display: flex;
         margin-top: 75px;
         margin-left: 175px;
         font-size: 14px;
@@ -1096,6 +1097,7 @@
     }
 
     .gallery_footer_text2_1 {
+        display: flex;
         margin-top: 75px;
         margin-left: 110px;
         font-size: 20px;
@@ -1117,7 +1119,7 @@
 
     /* Order Page */
     .order_intro {
-        height: 97vh;
+        height: 110vh;
     }
 
     .order_logo {
@@ -1176,6 +1178,6 @@
     
     .footer_bottom3 {
         font-size: 11px;
-        margin-top: 110px;
+        margin-top: 220px;
     }
 }
