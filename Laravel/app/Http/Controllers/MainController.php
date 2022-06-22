@@ -38,9 +38,13 @@ class MainController extends Controller
     }
 
     public function postOrder(Request $request){
-        $order = new Order;
-        $order->fill($request->toArray());
-        //$order->save();
+        $order = new Order();
+        $order->name = $request->input('name');
+        $order->phone = $request->input('phone');
+        $order->email = $request->input('email');
+
+        $order->save();
         return redirect()->back()->with(["status"=>"ok"]);
     }
+
 }
