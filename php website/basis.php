@@ -83,7 +83,7 @@ simple_function($a);
 
 echo "<br><br>";
 
-//-----------------------------------------------------------
+
 echo 'CLASS<br>';
 include_once "class.php";
 
